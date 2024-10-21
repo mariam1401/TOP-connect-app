@@ -1,0 +1,52 @@
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #a8a0a0;
+    border-radius: 20px;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+.form label{
+    font-size: 14px;
+}
+.error{
+    font-size: 12px;
+    color: red;
+}
+.header{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    flex-flow: column;
+    padding: 10px 0;
+}
+.header button{
+    background: dodgerblue;
+    border: none;
+    color: white;
+    width: max-content;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.send_btn{
+    width: 100%;
+    background: dodgerblue;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 450px){
+    .container{
+        width: 80%;
+    }
+
+}
